@@ -1,0 +1,81 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 2rem;
+  }
+
+  header {
+      margin-top: 50px;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+
+  header h1 {
+      font-weight: 600;
+      font-size: 2.8rem;
+      color: #2c3e50;
+  }
+
+  .image-block {
+      display: flex;
+      justify-content: center;
+      margin: 1.5rem 0;
+  }
+
+.image-block iframe {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+  .bio {
+      background-color: #ffffff;
+      padding: 1.8rem;
+      border-radius: 8px;
+      max-width: 800px;
+      margin: 0 auto 2rem auto;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      font-size: 1rem;
+      line-height: 1.6;
+  }
+
+  .stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+  }
+
+  .stat-card {
+      background-color: #3498db;
+      color: #fff;
+      padding: 1rem;
+      border-radius: 6px;
+      width: 150px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .stat-card h2 {
+      font-size: 1.6rem;
+      margin-bottom: 0.4rem;
+  }
+
+  .stat-card p {
+      font-size: 0.9rem;
+  }
+
+  footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #7f8c8d;
+  }
